@@ -1,0 +1,136 @@
+
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+}
+        header {
+            background-image: url(img/fondo-boy-11.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100px;
+            text-align: center;
+            color: white;
+            padding-top: 100px;
+
+        }
+        div{
+            background-image: url(img/fondo-boy-12.jpg);
+            }
+        
+
+        nav {
+            background-color: #4caf50;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: large;           
+            margin: 1.5em;
+        }
+        nav a:hover {
+                color: white;
+                font-size: 200%;
+        }
+
+        .text-border {
+            -webkit-text-stroke: 1px black;
+            color: whitesmoke; 
+          }
+
+        section {
+            margin: 2em;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(196, 142, 142, 0.1);
+            border-radius: 50px;
+           /* opacity: 0.5; */
+        }
+        section > div{
+            background-image: none;
+        }
+        .seccion2 > img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+
+        }
+
+        /*section:hover {
+            background-color: #7be0e0;
+            color: white;
+            font-size: 110%;
+
+        }*/
+
+        h2 {
+            color: #900C3F;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        h1{
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #4caf50;
+            color: black;
+        }
+       
+div a {
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color:cornflowerblue;
+
+
+}
+.breadcrumb a:hover{
+    color: rgb(19, 71, 22);
+    text-decoration: underline;
+}
+
+.left {
+    float: left;
+}
+
+.right  {
+    float: right;
+}
+
+.container > img {
+    background-color: #dbdbdb;
+    background-image: none;
+}
+
+.container{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; /*img se acomodan al contenedor*/
+}
+
+.container > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
